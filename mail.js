@@ -10,16 +10,16 @@ async function sendMail(){
    const transporter =  nodemailer.createTransport({
         service: 'gmail',
         auth:{
-            user: 'idealtechguru1@gmail.com',
-            pass: 'slnrhjpbuqaqpory'
+            user: 'kingdeepak010@gmail.com',
+            pass: 'hbht vopx gwns todd'
         }
     })
 
 
     //2.configure email content.
     const mailOptions = {
-        from:'idealtechguru1@gmail.com',
-        to: 'apnicoding72@gmail.com',
+        from:'kingdeepak010@gmail.com',
+        to: '2200090221@kluniversity.in',
         subject: 'Welcome to NodeJS App',
         text: 'This is an email using nodemail in nodejs',
     }
